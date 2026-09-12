@@ -13,7 +13,6 @@ self.addEventListener('activate', (e) => {
   );
 });
 
-// Network-first for HTML/JS so new deployments show up immediately
 self.addEventListener('fetch', (e) => {
   if (e.request.method !== 'GET') return;
   const url = new URL(e.request.url);
