@@ -9,19 +9,23 @@ Not affiliated with WhatsOnChain or the BSV Association. Information only. No ac
 ## What it does
 
 - Address / TX / block lookup via public WhatsOnChain APIs
+- Live node status from the Kallubi pruned node
 - Richlist, labels, activity heuristics (not identity)
+- Wallet downloads (v1.0.3 Linux / Windows / Mac M1+)
 - Watchlist in the browser (LocalStorage)
 - DE / EN, dark / light
 
 ## What it does not do
 
 - It does not store seeds or private keys
-- It is not a node
+- Lookups still use WhatsOnChain; the wallet broadcasts via the Kallubi node
 - Prebuilt hosting is convenience; this repo is the source to review
 
 ## Run locally
 
-Static files. Open `index.html` or use any static host (Cloudflare Pages, nginx, etc.).
+Static files. Open `index.html` or use any static host (Cloudflare Pages).
+
+Wallet binaries stay in R2 / the live site, not in this repo.
 
 ## License
 
